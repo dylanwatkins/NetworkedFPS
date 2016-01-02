@@ -423,7 +423,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2f2058858650b384583c55a6b35e2ff0, type: 2}
+  - {fileID: 2100000, guid: 94a48e3d42f24a8448a85f055d31a064, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -761,7 +761,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 0}
   destroyOnDeath: 0
-  currentHealth: 100
+  scoreValue: {fileID: 0}
+  gui: {fileID: 0}
+  currentHealth: 20
 --- !u!114 &11421110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -943,8 +945,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7564950b87ae4c84080ecc877f314586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localCaneMaterial: {fileID: 2100000, guid: ba701f784982b5f4bace8932aa43b363, type: 2}
-  notLocalCaneMaterial: {fileID: 2100000, guid: 2f2058858650b384583c55a6b35e2ff0,
+  localCaneMaterial: {fileID: 2100000, guid: 94a48e3d42f24a8448a85f055d31a064, type: 2}
+  notLocalCaneMaterial: {fileID: 2100000, guid: 94a48e3d42f24a8448a85f055d31a064,
     type: 2}
 --- !u!114 &11488684
 MonoBehaviour:
